@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=PT Sans:200,300,400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pacifico:200,300,400,500,600,700&display=swap");
 
 
 *{
@@ -98,7 +99,208 @@ header{
 
 .slogan h1 {
 	font-size: 82px;
+	font-weight: 500;
 	color: #333333;
 }
 
-.
+.slogan span{
+	display: block;
+}
+
+.slogan h3{
+	font-family: "Pacifico";
+	font-size: 30px;
+	color: #363636;
+	margin-top: 26px;
+}
+.btn-addcart{
+	margin-top: 40px;
+}
+.btn-addcart a{
+	color: #fff;
+	background-color: #86ae34;
+	padding: 22px 42px;
+
+}
+
+
+
+.welcome{
+	text-align: center;
+
+}
+
+.welcome h2{
+	font-size: 48px;
+	color: #86ae34;
+	font-family: "Pacifico", handwriting;
+	padding: 57px 0;
+}
+
+.itemgroup{
+	display: flex;
+	justify-content: center;
+}
+
+.itemgroup h4 {
+	font-size: 20px;
+	color: #4f4f4f;
+	font-family: "Pacifico", handwriting;
+	padding: 40px 0 30px 0; 
+}
+
+.itemgroup .item {
+	width: 30%;
+	margin: 0 2%;
+}
+.itemgroup .item p {
+	color: #8b8b8b;
+	font-size: 16px;
+	line-height: 27px;
+}
+
+.coupon .content{
+	margin-top: 100px;
+	display: flex;
+}
+
+
+.coupon .content img{
+	display: block;
+	width: 50%;
+} 
+
+
+.products{
+	text-align: center;
+}
+.title{
+	margin-top: 100px;
+}
+.title h3{
+	font-size: 32px;
+	font-family: "Pacifico";
+	color: #4f4f4f;
+	padding-bottom: 20px;
+}
+
+.products_menu{
+	display: flex;
+	justify-content: center;
+}
+.products_menu a{
+	padding-right: 45px;
+	color: #a5a5a5;
+}
+.products_menu a:hover{
+	color: #86ae34;
+}
+.photogrid{
+
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.photogrid .photo{
+	width: 263px;
+	height: 263px;
+	border: 1px solid #a5a5a5; 
+	margin-bottom: 100px;
+	margin-right: 3%;
+	margin-top: 45px;
+}
+
+.photogrid .photo img{
+	width: 100%;
+	
+}
+
+.photo h5{
+	font-size: 12px;
+	color: #86ae34;
+	font-weight: 300;
+	letter-spacing: 1px;
+	padding-top: 10px;
+}
+
+.photo h4{
+	font-size: 15px;
+	color: #333333;
+	padding-top: 10px;
+}
+
+.photo p {
+	font-size: 20px;
+	color:#86ae34; 
+	padding-top: 10px;
+	font-weight: 700;
+}
+
+
+.shopnow{
+	background-image: url(img/asset37.jpeg);
+	background-size: 100%;
+	margin-top: 100px;
+}
+
+.shopnow_title{
+	text-align: center;
+	padding: 170px 0;
+	color: #363636;
+}
+
+.shopnow_title h2{
+	font-size: 82px;
+}
+
+.shopnow_title h3{
+	font-size: 30px;
+	font-family: 'Pacifico';
+	padding-top: 25px;
+}
+
+.btn_shopnow{
+	margin-top: 45px;
+}
+
+.btn_shopnow a{
+	color: #fff;
+	font-size: 14px;
+	background-color: #86ae34;
+	padding: 20px 40px;
+}
+
+
+.compose{
+	
+}
+
+.compose .content{
+	display: flex;
+	justify-content: center;
+}
+.compose .compose_img{
+	width: 60%;
+	margin-right: 5%;
+}
+
+.compose .compose_img img{
+	display: block;
+	width: 100%;
+}
+.compose .compose_description{
+	width: 30%;
+}
+.compose .compose_description h4{
+	font-size: 20px;
+	font-family: 'Pacifico';
+	color: #4f4f4f;
+}
+.compose .compose_description p{
+	font-size: 16px;
+	color: #8b8b8b;
+	line-height: 27px;
+	padding-bottom: 20px;
+}
+
