@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=PT Sans:200,300,400,500,600,700&display=swap");
+
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	box-sizing: border-box;
+	font-family: "PT Sans", sans-serif;
+}
+
+p{
+	letter-spacing: 0.6px;
+}
+
+a{
+	text-decoration: none;
+	letter-spacing: .6px;
+}
+
+.main-nav{
+	width: 100%;
+	background-color: #679509;
+	height: 48px;
+}
+
+.content{
+	width: 1200px;
+	margin: auto;
+}
+
+.content p {
+	font-size: 14px;
+}
+
+.main-nav > .content {
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	line-height: 48px;
+}
+
+.setting{
+	display: flex;
+}
+
+.setting a{
+	color: #fff;
+	padding: 0 10px;
+	font-size: 12px;
+}
+
+.setting a:after{
+	content: '|';
+	padding-left:20px;
+}
+
+
+.sec-nav{
+	background-color: #fff;
+	width: 100%;
+	height: 87px;
+}
+
+.sec-nav > .content {
+	display: flex;
+	justify-content: space-between;
+	line-height: 87px;
+}
+.logo{
+	align-self: center;
+	width: 147px;
+	height: 59px;
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+	display: flex;
+}
+.menu a{
+	color: #a5a5a5;
+	padding:0 10px;
+	font-size: 14px;
+}
+
+
+
+
+
+header{
+	width: 100%;
+	background-image: url(img/headerbg.jpeg);
+	background-size: cover;
+	background-position: 50% 50%;
+	padding: 150px 0;
+}
+
+.slogan h1 {
+	font-size: 82px;
+	color: #333333;
+}
+
+.
