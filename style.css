@@ -273,6 +273,7 @@ header{
 
 
 .compose{
+	margin-top: 150px;	
 	
 }
 
@@ -302,5 +303,64 @@ header{
 	color: #8b8b8b;
 	line-height: 27px;
 	padding-bottom: 20px;
+}
+
+
+
+.latest{
+	text-align: center;
+	background-image: url(img/asset41.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 0;
+}
+
+.foodgrid{
+	display: flex;
+	justify-content: center;
+}
+
+.item_foodgrid{
+	margin-right: 50px;
+}
+
+.btn_foodgrid{
+	margin-top: 25px;
+}
+
+.btn_foodgrid a{
+	color: #fff;
+	font-size: 12px;
+	background-color: #86ae34;
+	padding:5px;
+}
+
+.item_foodgrid h4 {
+	font-size: 18px;
+	color: #4f4f4f;
+	margin-top: 25px;
+}
+
+.item_foodgrid p{
+	margin-top: 5px;
+	color: #a5a5a5;
+	font-size: 12px;
+}
+
+.item_foodgrid span{
+	color: #86ae34;
+}
+
+
+.itemgroup_cereal{
+	display: flex;
+}
+
+.item_cereal{
+	width: 30%;
+}
+
+.item_cereal img{
+	width: 100%;
 }
 
